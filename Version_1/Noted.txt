@@ -1,0 +1,6 @@
+Arduino_code.ino: move with the low speed with simple linear tracking.
+angle_data.py: calculate direction of the robot by determining the central of the space.
+data_process.py: using the horizontal mothed to determine boundary.
+main_process.py: using SVM to predict, and stream the video.
+Result: run smothly, and the back wheel slip when turn left or right.
+Problem: slip, the servo don't rotate  smothly, run on the black line.
