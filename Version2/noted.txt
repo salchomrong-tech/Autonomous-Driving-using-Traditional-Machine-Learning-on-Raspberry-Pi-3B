@@ -1,0 +1,6 @@
+Arduino_code.ino: use PID controller to control rotate of the servo motor.
+angle_data.py: shift the 10% pixel of the image to track on the curved road near by the black line when the robot turn left or right.
+data_process.py: it's the same Version1.
+main_process.py: separate the cores of cpu by using 1 core to stream the video on the web, and 3 cores to tracking, prediction, and data processing.
+Result: the robot can track on the curved road smothly with 20 frames per second.
+Problem: the streaming video is slowly when the internet is slow, the back wheels slip when it turn left or right, and the back wheel run on the back line on the curved road.
